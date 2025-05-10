@@ -1,0 +1,24 @@
+<?php
+
+?>
+
+<style>
+  input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 4px;
+  }
+
+  button {
+    padding: 4px 6px;
+  }
+</style>
+
+<h1><code>multipart/form-data</code> example</h1>
+
+<form action="submit.php" method="post" enctype="multipart/form-data">
+  <input type="text" name="name" placeholder="Name" value="Sajad" />
+  <input type="text" name="age" placeholder="Age" value="31" />
+  <input type="file" name="photo">
+  <button>Submit</button>
+</form>
